@@ -1,0 +1,98 @@
+<html>
+<head>
+	<title> Learning HTML </title>
+	<link rel="stylesheet" href="style.css">
+	<!-- Internal CSS -->
+	<style>
+		#box{
+			width: 400px;
+			height: 400px;
+			background-color: yellow;
+			color: red;
+			padding: 2rem;
+			text-align: center;
+		}
+		p{
+			border: 1px solid black;
+			padding: 1rem;
+		}
+
+		#intcss{
+			color: skyblue;
+			text-align: center;
+			font-family: arial;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<!-- This is comment -->
+	
+	<!-- Inline CSS -->
+	<h1 style="text-align: center; font-family: arial"> Modern Public School </h1>
+
+	<img src="./media/berger image.png" style="width:300px; display:block; margin:auto;">
+
+
+	<video style="width:400px" controls>
+		<source src='./media/2023-05-26 08-30-44.mp4'>
+	</video>
+
+	<iframe allowfullscreen src="https://www.youtube.com/embed/ZMQbHMgK2rw" 
+	style="width:500px; height:400px;"
+	> </iframe>
+	
+	<!-- Div is a division/Box -->
+	
+	<h2 id="intcss"> Internal CSS </h2>
+
+	<div id="box">
+		<p> This is Paragraph </p>
+	</div>
+	
+	<h2> External CSS </h2>
+
+	<div id="form1">
+		<h2 class="formHeading"> Login Form </h2>
+		<input type="text" placeholder="Username">
+		<input type="password" placeholder="Password">
+		<button> Login </button>
+	</div>
+
+
+	<table>
+		<tr>
+			<th> SN </th>
+			<th> Name </th>
+			<th> Roll Number </th>
+		<tr>
+
+		<tr>
+			<td> 1 </td>
+			<td> Mohan </td>
+			<td> 23 </td>
+		</tr>
+	</table>
+
+	<div class="inline">
+		<h1> Inline Element  </h1>
+		<ul>
+			<li> input </li>
+			<li> label </li>
+			<li> All form element </li>
+			<li> img </li>
+		</ul>
+	</div>
+	<div class="block">
+		<h1> Block Element  </h1>
+		<ul>
+			<li> div </li>
+			<li> All headings </li>
+			<li> p </li>
+		</ul>
+	</div>
+
+</body>
+
+</html>
